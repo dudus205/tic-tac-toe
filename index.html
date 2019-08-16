@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kółko i krzyrzyk</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="board">
+        <div class="box fa" data-row="0" data-column="0"></div>
+        <div class="box fa" data-row="0" data-column="1"></div>
+        <div class="box fa" data-row="0" data-column="2"></div>
+        <div class="box fa" data-row="1" data-column="0"></div>
+        <div class="box fa" data-row="1" data-column="1"></div>
+        <div class="box fa" data-row="1" data-column="2"></div>
+        <div class="box fa" data-row="2" data-column="0"></div>
+        <div class="box fa" data-row="2" data-column="1"></div>
+        <div class="box fa" data-row="2" data-column="2"></div>
+    </div>
+    <div class="info">
+        Player: <input type="text" id="Player" disabled="disabled"><br>
+        Round: <input type="text" id="Round" disabled="disabled"><br>
+        <input type="text" id="Winner" disabled="disabled">
+        <input type="submit" value="New round" onClick="window.location.reload();">
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
